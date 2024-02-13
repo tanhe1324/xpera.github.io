@@ -1,0 +1,372 @@
+<!DOCTYPE html><html lang="zh-CN" theme-mode="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yabai | Xpera's blog</title><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" as="font" crossorigin="anonymous" href="/font/Bender.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/BenderLight.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/JetBrainsMono-Regular.woff2"><link rel="stylesheet" href="/css/arknights.css"><style>@font-face {
+  font-family: Bender;
+  src: local('Bender'), url("/font/Bender.ttf"), url("/font/Bender.otf");
+}
+@font-face {
+  font-family: BenderLight;
+  src: local('BenderLight'), url("/font/BenderLight.ttf");
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"Enter here","blurHolder":"Search","noResult":"Data \"$0\" not found"},"code":{"codeInfo":"$0 - $1 lines","copy":"copy"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
+ document.documentElement.setAttribute('theme-mode', 'light')
+if (window.localStorage.getItem('theme-mode') === 'dark')
+ document.documentElement.setAttribute('theme-mode', 'dark')</script><style>:root {
+ --dark-background: url('https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg');
+ --light-background: url('/img/bk.jpg');
+ --theme-encrypt-confirm: 'confirm'
+}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script async src="//unpkg.com/valine/dist/Valine.min.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
+window.mermaid = mermaid;
+code.paintMermaid();
+</script><script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+  menuSettings: {
+    zoom: "None"
+  },
+  showMathMenu: false,
+  jax: ["input/TeX","output/CommonHTML"],
+  extensions: ["tex2jax.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js"],
+    equationNumbers: {
+      autoNumber: "AMS"
+    }
+  },
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]]
+  }
+});
+</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
+ el: '#valine'
+ , appId: 'suQjT631ZvEF7gN5beiU0z9L-gzGzoHsz'
+ , appKey: 'P8Tbqv8Eusi6wAGsHXcwFPEr' , placeholder: 'This comment is sent by Penguin Logistics.'
+ , path: window.location.pathname
+});document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js','data-pjax','.busuanzi'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);document.addEventListener('pjax:success', _ => bszCaller.fetch(
+ "//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback", a => {
+  bszTag.texts(a),
+  bszTag.shows()
+}));reset()})</script><meta name="generator" content="Hexo 7.0.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="Search" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem"><a class="navBlock" href="/about/"><span class="navItemTitle">About</span></a></li><li class="navItem"><a class="navBlock" href="/contact/"><span class="navItemTitle">Contact</span></a></li><li class="navItem"><a class="navBlock" href="/info/"><span class="navItemTitle">Info</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>yabai</h1><div id="post-info"><span>First Post: <div class="control"><time datetime="2024-02-13T12:47:47.000Z" id="date"> 2024-02-13</time></div></span><br><span>Last Update: <div class="control"><time datetime="2024-02-13T12:58:42.659Z" id="updated"> 2024-02-13</time></div></span><br><span>Word Count: <div class="control">1.1k</div></span><br><span>Read Time: <div class="control">4 min</div></span><br><span id="busuanzi_container_page_pv">Page View: <span class="control" id="busuanzi_value_page_pv">loading...</span></span></div></div><hr><div id="post-content"><h1 id="yabai-—-skhd-—-spacebar"><a href="#yabai-—-skhd-—-spacebar" class="headerlink" title="yabai — skhd — spacebar"></a>yabai — skhd — spacebar</h1><p class='item-img' data-src='../images/yabai.png'><img src="../images/yabai.png" alt="yabai"></p>
+<h2 id="emsp-emsp-emsp-emsp-官网"><a href="#emsp-emsp-emsp-emsp-官网" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;官网"></a>&emsp;&emsp;&emsp;&emsp;官网</h2><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a target="_blank" rel="noopener" href="https://github.com/koekeishiya/formulae/yabai">yabai</a></p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a target="_blank" rel="noopener" href="https://github.com/koekeishiya/formulae/skhd">skhd</a></p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a target="_blank" rel="noopener" href="https://github.com/cmacrae/formulae/spacebar">spacebar</a></p>
+<h2 id="emsp-emsp-emsp-emsp-教程"><a href="#emsp-emsp-emsp-emsp-教程" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;教程"></a>&emsp;&emsp;&emsp;&emsp;教程</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1sW4y1R7yJ/">用Mac不用它，你的Mac白买了 —— 平铺式窗口管理器yabai</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1eP4y1p78Z/">【yabai】mac下的i3wm，效率更高的窗口管理软件</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1gf4y117aU/">【Yabai/窗口管理/桌面美化】这个真的是Mac系统的桌面？Mac下面最好看的窗口管理工具Yabai</a></p>
+<h2 id="emsp-emsp-emsp-emsp-关闭SIP"><a href="#emsp-emsp-emsp-emsp-关闭SIP" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;关闭SIP"></a>&emsp;&emsp;&emsp;&emsp;关闭SIP</h2><p class='item-img' data-src='https://camo.githubusercontent.com/ea76733283e411116f0f7efc763d922e54409cb7dea06b22e3d4c37827bb304b/68747470733a2f2f696d672e6b616e636c6f75642e636e2f63612f36392f63613639313335633837353038616463626336383539316261383165343964615f373031783738332e706e67'><img src="https://camo.githubusercontent.com/ea76733283e411116f0f7efc763d922e54409cb7dea06b22e3d4c37827bb304b/68747470733a2f2f696d672e6b616e636c6f75642e636e2f63612f36392f63613639313335633837353038616463626336383539316261383165343964615f373031783738332e706e67" alt="img"></p>
+<h2 id="emsp-emsp-emsp-emsp-安装"><a href="#emsp-emsp-emsp-emsp-安装" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;安装"></a>&emsp;&emsp;&emsp;&emsp;安装</h2><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;安装需要brew(mac不自带)没有安装的可以在 <a target="_blank" rel="noopener" href="https://brew.sh">brew官网</a> 上安装</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs shell">brew install koekeishiya/formulae/yabai<br><br>brew install koekeishiya/formulae/skhd<br><br>brew install cmacrae/formulae/spacebar<br></code></pre></td></tr></table></figure>
+<p>安装好后yabai需要运行  <strong>sudo yaban —load-sa</strong>  </p>
+<p>执行  <strong>shasum -a 256 $(which yabai)</strong>  来获取hash和yabai安装位置</p>
+<p>编辑/etc/sudoers文件，在末尾加上：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">&lt;你的用户名&gt; ALL=(root) NOPASSWD: sha256:&lt;刚刚获取的hash&gt; &lt;yabai安装位置&gt; --load-sa<br></code></pre></td></tr></table></figure>
+<p>然后把~/.config/yabai/yabairc文件添加两行：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">yabai -m signal --add event=dock_did_restart action=&quot;sudo yabai --load-sa&quot;<br>sudo yabai --load-sa<br></code></pre></td></tr></table></figure>
+<h2 id="emsp-emsp-emsp-emsp-运行"><a href="#emsp-emsp-emsp-emsp-运行" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;运行"></a>&emsp;&emsp;&emsp;&emsp;运行</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs shell">yabai --start-service<br><br>skhd --start-service<br><br>brew services start spacebar<br></code></pre></td></tr></table></figure>
+<h3 id="emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-重启"><a href="#emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-重启" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;重启"></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;重启</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs shell">yabai --stop-service #停止yabai<br>yabai --start-service #开启yabai<br><br>skhd --stop-service #停止skhd<br>skhd --start-service #开启skhd<br><br>brew install stop spacebar #关闭spacebar<br>brew services start spacebar #开启spacebar<br>brew services restart spacebar #重启spacebar<br></code></pre></td></tr></table></figure>
+<h2 id="emsp-emsp-emsp-emsp-配置文件"><a href="#emsp-emsp-emsp-emsp-配置文件" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;配置文件"></a>&emsp;&emsp;&emsp;&emsp;配置文件</h2><span class="hide"><object><p>yabai—skhd—spacebar需要单独放在～/.config/(yabai skihd spacebar)下</p></object></span>
+<p class='item-img' data-src='/Users/apple/Pictures/like this.png'><img src="/Users/apple/Pictures/like this.png" alt="like this"></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/Mopip77/dotfile">first</a>使用这个需要<strong>删除limelight(已弃用)</strong></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/itgoyo/yabai-config/blob/master/yabai/skhdrc">second</a></p>
+<h2 id="emsp-emsp-emsp-emsp-键绑定（用的是second）"><a href="#emsp-emsp-emsp-emsp-键绑定（用的是second）" class="headerlink" title="&emsp;&emsp;&emsp;&emsp;键绑定（用的是second）"></a>&emsp;&emsp;&emsp;&emsp;键绑定（用的是second）</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Alt + h</th>
+<th>切换窗口注视（左）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Alt + j</td>
+<td>切换窗口注视（下）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + k</td>
+<td>切换窗口注视（上）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + l</td>
+<td>切换窗口注视（右）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + h</td>
+<td>移动同桌面的窗口（左）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + j</td>
+<td>移动同桌面的窗口（下）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + k</td>
+<td>移动同桌面的窗口（上）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + l</td>
+<td>移动同桌面的窗口（右）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + h</td>
+<td>更改窗口大小（左）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + j</td>
+<td>更改窗口大小（下）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + k</td>
+<td>更改窗口大小（上）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + l</td>
+<td>更改窗口大小（右）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + c</td>
+<td>窗口浮动</td>
+</tr>
+<tr>
+<td style="text-align:center">左Ctrl + Alt + 0</td>
+<td>重置窗口大小</td>
+</tr>
+<tr>
+<td style="text-align:center">左Ctrl + Alt + g</td>
+<td>窗口间隙</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + r</td>
+<td>逆时针旋转窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + r</td>
+<td>顺时针旋转窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + x</td>
+<td>同桌面左右翻转窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + y</td>
+<td>同桌面上下反转窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + 左Ctrl + Alt + h</td>
+<td>显示下一个窗口插入位置（左）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + 左Ctrl + Alt + j</td>
+<td>显示下一个窗口插入位置（下）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + 左Ctrl + Alt + k</td>
+<td>显示下一个窗口插入位置（上）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + 左Ctrl + Alt + l</td>
+<td>显示下一个窗口插入位置（右）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + Space</td>
+<td>同桌面的窗口全部浮动</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + Command + r</td>
+<td>重启yabai</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + f</td>
+<td>窗口铺满屏幕</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + ALt + f</td>
+<td>窗口全屏</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + t</td>
+<td>更改窗口分割类型</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + d</td>
+<td>未知</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt +w</td>
+<td>未知</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + a</td>
+<td>减少窗口大小（横向）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Alt + s</td>
+<td>减少窗口大小（竖向）</td>
+</tr>
+<tr>
+<td style="text-align:center">Command + Alt + x</td>
+<td>切换桌面（最近）</td>
+</tr>
+<tr>
+<td style="text-align:center">Command + Alt + z</td>
+<td>切换桌面（上）</td>
+</tr>
+<tr>
+<td style="text-align:center">Command + Alt + c</td>
+<td>切换桌面（下）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 1</td>
+<td>切换桌面（1）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 2</td>
+<td>切换桌面（2）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 3</td>
+<td>切换桌面（3）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 4</td>
+<td>切换桌面（4）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 5</td>
+<td>切换桌面（5）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 6</td>
+<td>切换桌面（6）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 7</td>
+<td>切换桌面（7）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 8</td>
+<td>切换桌面（8）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 9</td>
+<td>切换桌面（9）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 0</td>
+<td>切换桌面（10）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + n</td>
+<td>融合桌面（上）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + m</td>
+<td>融合桌面（下）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + Alt + w</td>
+<td>删除空白桌面</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 1</td>
+<td>将当前窗口融合到桌面（1）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 2</td>
+<td>将当前窗口融合到桌面（2）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 3</td>
+<td>将当前窗口融合到桌面（3）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 4</td>
+<td>将当前窗口融合到桌面（4）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 5</td>
+<td>将当前窗口融合到桌面（5）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 6</td>
+<td>将当前窗口融合到桌面（6）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 7</td>
+<td>将当前窗口融合到桌面（7）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 8</td>
+<td>将当前窗口融合到桌面（8）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 9</td>
+<td>将当前窗口融合到桌面（9）</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + 0</td>
+<td>将当前窗口融合到桌面（10）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + m</td>
+<td>将窗口移动到桌面（最后）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + b</td>
+<td>将窗口移动到桌面（上一个）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + n</td>
+<td>将窗口移动到桌面（下一个）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + 1</td>
+<td>将窗口移动到桌面（1）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + 2</td>
+<td>将窗口移动到桌面（2）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + 3</td>
+<td>将窗口移动到桌面（3）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + 4</td>
+<td>将窗口移动到桌面（4）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + 5</td>
+<td>将窗口移动到桌面（5）</td>
+</tr>
+<tr>
+<td style="text-align:center">Shift + Command + 6</td>
+<td>将窗口移动到桌面（6）</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + Ctrl + f</td>
+<td>未知</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + Ctrl + b</td>
+<td>未知</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/post/4a17b156.html">Hello World Prev →</a></div></div></div><div id="comments"><div id="valine"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="To Top" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="To Catalog">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="Change Theme"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ooo.0x0.ooo/2023/12/02/OAaOhb.png" alt="Logo"></a><h1 id="Dr"><a href="/">Xpera</a></h1><div id="description"><p></p></div></div><div id="aside-block"><div id="toc-div"><h1>Catalog</h1><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#yabai-%E2%80%94-skhd-%E2%80%94-spacebar"><span class="toc-number">1.</span> <span class="toc-text">yabai — skhd — spacebar</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E5%AE%98%E7%BD%91"><span class="toc-number">1.1.</span> <span class="toc-text">    官网</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E6%95%99%E7%A8%8B"><span class="toc-number">1.2.</span> <span class="toc-text">    教程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E5%85%B3%E9%97%ADSIP"><span class="toc-number">1.3.</span> <span class="toc-text">    关闭SIP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E5%AE%89%E8%A3%85"><span class="toc-number">1.4.</span> <span class="toc-text">    安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E8%BF%90%E8%A1%8C"><span class="toc-number">1.5.</span> <span class="toc-text">    运行</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-emsp-%E9%87%8D%E5%90%AF"><span class="toc-number">1.5.1.</span> <span class="toc-text">          重启</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="toc-number">1.6.</span> <span class="toc-text">    配置文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#emsp-emsp-emsp-emsp-%E9%94%AE%E7%BB%91%E5%AE%9A%EF%BC%88%E7%94%A8%E7%9A%84%E6%98%AFsecond%EF%BC%89"><span class="toc-number">1.7.</span> <span class="toc-text">    键绑定（用的是second）</span></a></li></ol></li></ol></div></div><footer><nobr><span class="icp-title">ICP</span><a class="icp-content" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">没备案（悲 哼哼哼啊啊啊啊啊！）</a></nobr><br><nobr>Published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
